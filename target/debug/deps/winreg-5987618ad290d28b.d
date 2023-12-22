@@ -1,0 +1,11 @@
+C:\Users\ajsty\OneDrive\Desktop\VS_Code\rust\currency_converter\target\debug\deps\libwinreg-5987618ad290d28b.rmeta: C:\Users\ajsty\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\lib.rs C:\Users\ajsty\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\common.rs C:\Users\ajsty\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\enums.rs C:\Users\ajsty\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\reg_key.rs C:\Users\ajsty\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\reg_key_metadata.rs C:\Users\ajsty\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\reg_value.rs C:\Users\ajsty\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\types.rs
+
+C:\Users\ajsty\OneDrive\Desktop\VS_Code\rust\currency_converter\target\debug\deps\winreg-5987618ad290d28b.d: C:\Users\ajsty\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\lib.rs C:\Users\ajsty\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\common.rs C:\Users\ajsty\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\enums.rs C:\Users\ajsty\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\reg_key.rs C:\Users\ajsty\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\reg_key_metadata.rs C:\Users\ajsty\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\reg_value.rs C:\Users\ajsty\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\types.rs
+
+C:\Users\ajsty\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\lib.rs:
+C:\Users\ajsty\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\common.rs:
+C:\Users\ajsty\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\enums.rs:
+C:\Users\ajsty\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\reg_key.rs:
+C:\Users\ajsty\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\reg_key_metadata.rs:
+C:\Users\ajsty\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\reg_value.rs:
+C:\Users\ajsty\.cargo\registry\src\index.crates.io-6f17d22bba15001f\winreg-0.50.0\src\types.rs:
