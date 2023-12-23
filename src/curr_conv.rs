@@ -37,28 +37,37 @@ impl CurrencyData {
         currency: String,
         base_currency: String,
     ) -> Result<CurrencyData, Error> {
+
         dotenv().ok();
+
         let request_url = format!(
           "https://api.currencyapi.com/v3/latest?apikey=cur_live_3WA0zah3Lbz6WkhyClY8S1hUqbhlDPmVxKX2m6NZ&currencies={currency}&base_currency={base_currency}",
           currency = currency,
           base_currency = base_currency
-      );
+        ); 
+
         let response = reqwest::get(&request_url).await?;
+
         if response.status().is_success() {
             let api_response: ApiResponse = response.json().await?;
+
             if let Some(currency_data) = api_response.data.currencies.get(&currency) {
                 // Return the new CurrencyData instance
                 return Ok(CurrencyData {
                     code: currency_data.code.clone(),
                     value: currency_data.value,
-                })
-            } else {
+                });
+            } 
+			else {
                 println!("Currency data not found for {}", currency);
             }
+
             println!("Last Updated At: {}", api_response.meta.last_updated_at);
-        } else {
+        } 
+		else {
             println!("Request failed with status: {}", response.status());
         }
+
         Ok(CurrencyData {
             code: String::new(),
             value: 0.0,
